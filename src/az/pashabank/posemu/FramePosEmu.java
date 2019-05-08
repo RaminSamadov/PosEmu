@@ -42,6 +42,7 @@ public class FramePosEmu extends javax.swing.JFrame {
         miIsoMessgaeFIelds = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
 
         taDisplay.setBackground(new java.awt.Color(204, 255, 255));
         taDisplay.setColumns(20);
